@@ -21,7 +21,6 @@ function triangletype() {
     //print the values cannot form a triangle
     document.getElementById('displayresult').innerHTML = "Those values cannot form a triangle";
   }
-
 }
 
 /*Trying to output an image of the appropriate triangle corresponding to the values entered*/
