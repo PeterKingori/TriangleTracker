@@ -13,4 +13,8 @@ function triangletype() {
     else if (length[0] === length[1] && length[1] === length[2]) {
       print on screen equilateral triangle
     }
+    else {
+      print on screen scalene triangle
+    }
+  }
 }
