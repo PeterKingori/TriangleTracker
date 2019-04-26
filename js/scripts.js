@@ -23,3 +23,8 @@ function triangletype() {
   }
 
 }
+
+/*Trying to output an image of the appropriate triangle corresponding to the values entered*/
+/*var qrEqual = document.createElement("img");
+qrEqual.src = "images/isosceles.png";
+document.body.appendChild(qrEqual);*/
