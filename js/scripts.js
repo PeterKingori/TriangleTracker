@@ -9,7 +9,7 @@ function triangletype() {
   if (((length1 + length2) > length3) && ((length1 + length3) > length2) && ((length2 + length3) > length1)) {
     if ((length1 === length2 && length1 !== length3) || (length1 === length3 && length1 !== length2) || (length2 === length3 && length2 !== length1)) {
       //print on screen isosceles triangle
-      alert("Isosceles Triangle");
+      document.getElementById('displayresult').innerHTML = "That is an Isosceles Triangle";
     } else if ((length1 === length2) && (length2 === length3)) {
       //print on screen equilateral triangle
       alert("Equilateral Triangle");
