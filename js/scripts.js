@@ -10,4 +10,7 @@ function triangletype() {
     if (length[0] === length[1] || length[0] === length[2] || length[1] === length[2]) {
       print on screen isosceles triangle
     }
+    else if (length[0] === length[1] && length[1] === length[2]) {
+      print on screen equilateral triangle
+    }
 }
