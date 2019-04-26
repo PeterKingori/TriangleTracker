@@ -1,21 +1,18 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+# Triangle Tracker
+#### This is a web application that lets the user enter the length values for three sides of a triangle. The program then determines if the values will produce an isosceles, equilateral or scalene triangle, or no triangle at all. , 26th April 2019
+#### By **Peter Kingori**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
-## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
-## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+This is an application that lets a user know whether a triangle is Isosceles, Equilateral, Scalene or NOT a triangle at all.
+The user enters the length values of the three sides of a triangle in the form provided. The form collects the inputted values and in the background does calculations and uses appropriate control flows and logical operators to determine the type of triangle.
+The values are stored in an array, although this is not strictly necessary for it to work. Then it first checks if the sum of any two sides is greater than the third remaining side, in which case a triangle can be formed, otherwise the values entered cannot form a triangle.
+After this it checks if two sides are exactly equal, which forms an Isosceles triangle. Otherwise it checks if all three sides are equal, which produces an Equilateral triangle. If neither of these two results comes up, then the values form a Scalene triangle which has no sides equal.
+The link to the live site on Github Pages is
+## Instructions for use
+Simply enter three integer values in the form provided, click the submit button and see the result.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+The application uses HTML and CSS for the front end user interface, and JavaScript for the backend logic and calculations.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+If you run into any issues or have questions, ideas or concerns feel free to contact me.  You are also encouraged to make a contribution to the project.}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+This project is licensed under the **GNU General Public License** See the full [LICENSE](https://choosealicense.com/licenses/gpl-3.0/) for details.
+2019 **Peter Kingori**
