@@ -7,7 +7,6 @@
 </head>
 
 <body>
-  <script src="js/scripts.js" type="text/javascript"></script>
   <h1>Triangle Tracker</h1>
   <div class="intro">
     <h3>Description of application</h3>
@@ -30,14 +29,14 @@
     <p>Fill the form below with three integers (whole numbers) that represent lengths
       of a triangle
     </p>
-    <form class="form" name="triangleform" action="scripts.js" method="post">
+    <form class="form" action="javascript:triangletype()" method="post">
       First value: <input type="number" id="value1" placeholder="Enter an integer">
       Second value: <input type="number" id="value2" placeholder="Enter an integer">
       Third value: <input type="number" id="value3" placeholder="Enter an integer">
-      <button type="submit" autofocus onsubmit="triangletype()">Submit</button>
+      <button type="submit" autofocus>Submit</button>
     </form>
   </div>
-
+  <h1 id="result"></h1>
   <div class="types">
     <h3>Types of triangles</h3>
     <p>See below for the types of triangles expected</p>
@@ -48,7 +47,7 @@
     <h4>Scalene Triangle</h4>
     <img src="images/scalene.png" alt="Scalene Triangle">
   </div>
-
+  <script src="js/scripts.js" type="text/javascript"></script>
 </body>
 
 </html>
