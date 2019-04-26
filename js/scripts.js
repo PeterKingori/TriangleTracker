@@ -9,17 +9,17 @@ function triangletype() {
   if (((length[0] + length[1]) > length[2]) && ((length[0] + length[2]) > length[1]) && ((length[1] + length[2]) > length[0])) {
     if ((length[0] === length[1] && length[0] !== length[2]) || (length[0] === length[2] && length[0] !== length[1]) || (length[1] === length[2] && length[1] !== length[0])) {
       //print on screen isosceles triangle
-      document.getElementById('displayresult').innerHTML = "That is an Isosceles Triangle";
+      document.getElementById('displayresult').innerHTML = "That is an Isosceles Triangle. Two sides are equal.";
     } else if ((length[0] === length[1]) && (length[1] === length[2])) {
       //print on screen equilateral triangle
-      document.getElementById('displayresult').innerHTML = "That is an Equilateral Triangle";
+      document.getElementById('displayresult').innerHTML = "That is an Equilateral Triangle. All sides are equal.";
     } else {
       //print on screen scalene triangle
-      document.getElementById('displayresult').innerHTML = "That is a Scalene Triangle";
+      document.getElementById('displayresult').innerHTML = "That is a Scalene Triangle. The sides are not equal.";
     }
   } else {
     //print the values cannot form a triangle
-    document.getElementById('displayresult').innerHTML = "Those values cannot form a triangle";
+    document.getElementById('displayresult').innerHTML = "Those values cannot form a triangle!";
   }
 }
 

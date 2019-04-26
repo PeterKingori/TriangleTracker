@@ -12,9 +12,31 @@ h3 {
   font-family: 'Roboto Slab', serif;
   text-decoration: underline;
 }
+#displayresult {
+  text-decoration: none;
+  color: red;
+  margin-top: 20px;
+  text-align: center;
+}
 h1 {
   font-size: 45px;
   letter-spacing: 0.15em;
   text-align: center;
   text-decoration: underline;
+}
+.end {
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+.end h3 {
+  margin: 0;
+}
+label {
+  display: inline-block;
+  width: auto;
+  text-align: right;
+}
+input {
+  border: 1px solid #999;
 }
