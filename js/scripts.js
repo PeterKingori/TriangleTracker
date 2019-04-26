@@ -12,14 +12,14 @@ function triangletype() {
       document.getElementById('displayresult').innerHTML = "That is an Isosceles Triangle";
     } else if ((length1 === length2) && (length2 === length3)) {
       //print on screen equilateral triangle
-      alert("Equilateral Triangle");
+      document.getElementById('displayresult').innerHTML = "That is an Equilateral Triangle";
     } else {
       //print on screen scalene triangle
-      alert("Scalene Triangle");
+      document.getElementById('displayresult').innerHTML = "That is a Scalene Triangle";
     }
   } else {
     //print the values cannot form a triangle
-    alert("Those values cannot form a triangle");
+    document.getElementById('displayresult').innerHTML = "Those values cannot form a triangle";
   }
 
 }
