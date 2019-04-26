@@ -29,6 +29,10 @@ h1 {
   text-decoration: underline;
 }
 
+img {
+  border: 1px solid grey; 
+}
+
 .end {
   padding: 1em;
   border: 1px solid #ccc;
