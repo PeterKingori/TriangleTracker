@@ -3,7 +3,7 @@
 
 <head>
   <title>Triangle Tracker</title>
-  <link rel="stylesheet" href="/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
 <body>
@@ -29,11 +29,11 @@
     <p>Fill the form below with three integers (whole numbers) that represent lengths
       of a triangle
     </p>
-    <form class="form" action="javascript:triangletype()" method="post">
+    <form class="form" id="triangleform" action="javascript:triangletype()" method="post">
       First value: <input type="number" id="value1" placeholder="Enter an integer"> <br/> <br>
       Second value: <input type="number" id="value2" placeholder="Enter an integer"> <br/><br>
       Third value: <input type="number" id="value3" placeholder="Enter an integer"> <br/><br>
-      <button type="submit" autofocus onsubmit="">Submit</button>
+      <button type="submit">Submit</button>
       <input type="reset" value="Reset the form">
     </form>
   </div>
