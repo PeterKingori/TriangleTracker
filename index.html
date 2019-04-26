@@ -7,8 +7,8 @@
 </head>
 
 <body>
-  <h1>Triangle Tracker</h1>
   <script src="js/scripts.js" type="text/javascript"></script>
+  <h1>Triangle Tracker</h1>
   <div class="intro">
     <h3>Description of application</h3>
     <p>This application will help the user know if three values entered for lengths
@@ -30,13 +30,14 @@
     <p>Fill the form below with three integers (whole numbers) that represent lengths
       of a triangle
     </p>
-    <form name="" class="form" action="scripts.js" method="get">
+    <form class="form" id="triangleform" action="scripts.js" method="post">
       First value: <input type="number" name="first" id="value1" placeholder="Enter an integer">
       Second value: <input type="number" name="second" id="value2" placeholder="Enter an integer">
       Third value: <input type="number" name="third" id="value3" placeholder="Enter an integer">
       <button type="submit" autofocus>Submit</button>
     </form>
   </div>
+
   <div class="types">
     <h3>Types of triangles</h3>
     <p>See below for the types of triangles expected</p>
