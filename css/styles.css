@@ -1,10 +1,20 @@
 body {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   font-family: 'Playfair Display', serif;
+  letter-spacing: 0.07em;
 }
 .end {
   background-color: #FFEE93;
 }
 h3 {
   font-family: 'Roboto Slab', serif;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 45px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-decoration: underline;
 }
