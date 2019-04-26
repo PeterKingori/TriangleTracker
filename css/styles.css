@@ -1,7 +1,10 @@
 body {
   padding: 20px;
-  font-family: serif;
+  font-family: 'Playfair Display', serif;
 }
 .end {
   background-color: #FFEE93;
+}
+h3 {
+  font-family: 'Roboto Slab', serif;
 }
