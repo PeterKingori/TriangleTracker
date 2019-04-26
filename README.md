@@ -1,5 +1,6 @@
 # Triangle Tracker
-#### This is a web application that lets the user enter the length values for three sides of a triangle. The program then determines if the values will produce an isosceles, equilateral or scalene triangle, or no triangle at all. , 26th April 2019
+#### 26th April 2019
+#### This is a web application that lets the user enter the length values for three sides of a triangle. The program then determines if the values will produce an isosceles, equilateral or scalene triangle, or no triangle at all.
 #### By **Peter Kingori**
 ## Description
 This is an application that lets a user know whether a triangle is Isosceles, Equilateral, Scalene or NOT a triangle at all.
