@@ -17,4 +17,7 @@ function triangletype() {
       print on screen scalene triangle
     }
   }
+  else {
+    print the values cannot form a triangle
+  }
 }
