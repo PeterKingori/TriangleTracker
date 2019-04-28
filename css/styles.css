@@ -8,6 +8,17 @@ body {
 
 .end {
   background-color: #FFEE93;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-bottom: 10px;
+}
+
+.types {
+  background-color: lightblue;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
 }
 
 h3 {
@@ -30,13 +41,7 @@ h1 {
 }
 
 img {
-  border: 1px solid grey; 
-}
-
-.end {
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
+  border: 1px solid grey;
 }
 
 .end h3 {
