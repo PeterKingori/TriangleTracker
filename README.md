@@ -14,6 +14,21 @@ After this it checks if two sides are exactly equal, which forms an Isosceles tr
 The link to the live site on Github Pages is https://peterkingori.github.io/TriangleTracker/.
 ## Instructions for use
 Simply enter three integer values in the form provided, click the submit button and see the result.
+## Behaviour Driven Development Process
+This program should take in 3 values representing the sides of a triangle, determine the type of triangle whether an Isosceles, Equilateral or Scalene triangle, or NOT a triangle at all, and return the result to the user.
+1. For any three values to form a triangle, the sum of any two sides of the triangle should be greater than the remaining third side. Otherwise a triangle CANNOT be formed using those values.
+2. For an Equilateral Triangle, all sides must be equal.
+3. For an Isosceles Triangle, two sides must be exactly equal.
+4. For a Scalene Triangle, none of the sides is equal, but the sum of any two sides of the triangle must be greater than the third side.
+
+| Behaviour our program should handle | Input example | Output example |
+| ----------------------------------- | ------------- | -------------- |
+| Values that cannot form a triangle | 18, 8, 6       | Cannot form a triangle |
+| Values that cannot form a triangle | 0, 0, 0       | Cannot form a triangle |
+| Values that form an equilateral triangle | 10, 10, 10 | | Equilateral Triangle |
+| Values that form an isosceles triangle | 14, 14, 8 | | Isosceles Triangle |
+| Values that form a scalene triangle | 20, 15, 32 | | Scalene Triangle |
+
 ## Technologies Used
 The application uses HTML and CSS for the front end user interface, and JavaScript for the backend logic and calculations.
 ## Support and contact details
