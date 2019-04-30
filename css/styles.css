@@ -21,6 +21,10 @@ body {
   border-radius: 0.5em;
 }
 
+a {
+  text-decoration: none;
+}
+
 h3 {
   font-family: 'Roboto Slab', serif;
   text-decoration: underline;
